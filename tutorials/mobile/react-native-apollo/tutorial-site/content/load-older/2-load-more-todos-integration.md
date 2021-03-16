@@ -44,7 +44,7 @@ In the last section, we modified the query that fetches all the todos to fetch o
 We need the apollo client instance to make queries and mutations manually. Just import `withApollo` from `react-apollo` and wrap the `LoadOlder` component with it before while exporting. `withApollo` helps us inject the `client` instance as a prop in our `TodoItem` component. At the very bottom of the file:
 
 ```js
-+import { withapollo } from 'react-apollo'
++import { withApollo } from 'react-apollo'
 ```
 
 ```js
